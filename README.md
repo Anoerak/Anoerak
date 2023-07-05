@@ -89,7 +89,7 @@ const story = [
 			'2021': 'In parallel with my job at the time as a national sales manager, I started a program with OpenClassrooms in order 
 			to get an official certifiation as a web developer (HTML, CSS, Node, MySQL, Vue). Done in 4 months instead of 6 as 
 			planned by OpenClassrooms.',
-			'2022': 'I quit my job and start another training with OpenClassrooms in order to get a certification as an advanced JS & 
+			'2022-2023': 'I quit my job and start another training with OpenClassrooms in order to get a certification as an advanced JS & 
 			React web application developer. I managed to validate all the projects in about 5 and 1/2 months instead of 12 and 
 			use the extra time to do all the projects of the PHP & Symfony Web Developer program (a total different 12 months program). 
 			Today, I\'m about to officially follow the PHP & Symfony program and use the extra time to study others languages, frameworks, 
