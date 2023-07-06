@@ -105,7 +105,7 @@ me.story = story;
 <br><br>
 
 
-### <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="50"> A little more about what I'm studying at the moment... 
+### <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="50"> A little more about what I'm studying at the moment... <img src="https://media.giphy.com/media/9nOjSPYp2NjwrIfeNA/giphy.gif" width="90">     <img src="https://media.giphy.com/media/k9wc7ZzkSBojEnhUTr/giphy.gif" width="40">
 
 ````jsx
 const subjectsActuallyStudied = () => {
@@ -115,7 +115,7 @@ const subjectsActuallyStudied = () => {
   
   return (
     <div className="main">
-      <h1>Docker, OpenStack, Kubernete and Ansible</h1>
+      <h1>Docker, OpenStack, Kubernetes and Ansible</h1>
       <div className="home_content">
         {isError ? (
           <div className="error">
