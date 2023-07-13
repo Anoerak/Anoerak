@@ -204,7 +204,7 @@ class Me implements Goals
        PC in 2021 and enjoy it a lot. I play all sort of games but at the moment, I play a lot of DayZ, The Last of Us and Hunt:Showdown.',
       	'Server Admin/ Mods' => 'I also give a hand to the staff of a French DayZ server ("Les Imparfaits"). It involves some 3D modeling, some C++ code session to install, modify, updates the mods and some 
        community management.',
-	'Travels' => 'I love to travel, meet new people, experience news life styles and I intend to share this love with my son.'
+	'Travels' => 'I love to travel, meet new people, experience news life styles and I intend to share this love with my son.',
 	'Music' => 'I play guitar and accordeon, love country music and pop-roc music!!'
     ];
   }
