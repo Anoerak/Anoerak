@@ -56,7 +56,7 @@ class Anørak {
 		this._pronouns = 'he' | 'his';
 		this._languages = ['HTML5', 'Twig', 'CSS3', 'SCSS', 'JavaScript', 'PHP', 'MySQL'];
 		this._frameworks = ['React.JS', 'Vue.JS', 'Solid.JS', 'Symfony'];
-		this._librairies = ['Redux', 'Bootstrap', 'Bulma', 'Chart.JS'];
+		this._librairies = ['Redux', 'Bootstrap', 'Bulma', 'Chart.JS', 'Rechart'];
 		this._workInProgress = 'Nailing the unit test with PHPUnit, exploring Docker containers, Kubernetes and Ansible!!';
 		this._story = [];
 	}
