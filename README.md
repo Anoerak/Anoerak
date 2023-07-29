@@ -90,9 +90,9 @@ const story = [
 			to get an official certifiation as a web developer (HTML, CSS, Node, MySQL, Vue). Done in 4 months instead of 6 as 
 			planned by OpenClassrooms.',
 			'2022-2023': 'I quit my job and start another training with OpenClassrooms in order to get a certification as an advanced JS & 
-			React web application developer. I managed to validate all the projects in about 5 and 1/2 months instead of 12 and 
+			React web applications developer. I managed to validate all the projects in about 5 and 1/2 months instead of 12 and 
 			use the extra time to do all the projects of the PHP & Symfony Web Developer program (a total different 12 months program). 
-			Today, I\'m about to officially follow the PHP & Symfony program and use the extra time to study others languages, frameworks, 
+			Today, I\'m officially following the PHP & Symfony program and use the extra time to study others languages, frameworks, 
 			librairies and get a job!!!',
 		},
 	},
@@ -126,7 +126,7 @@ const subjectsActuallyStudied = () => {
         ) : (
           <div className="cards">
             {listOfSubjects.map((place) => (
-		// You got it, I try to get better with React, Next and Solid JS
+		// You got it, I try to get better with React, Next and Solid JS meamwhile working on OpenStack, Docker and Ansible. 
               <Link to={`/details/${subject.id}`} key={subject.id}>
                 <Card id={subject.id} name={subject.title} picture={subject.emote} />
               </Link>
@@ -176,8 +176,7 @@ class Me implements Goals
       ],
 	  'location' => [
 	  	'Worldwide' => 'Anywhere as long as we can work fully remotely',
-		'Stockholm' => 'Hybrid if remote 3 to 4 days a week, otherwise full remote',
-		'Montreal or Quebec' => 'Hybrid if remote 3 to 4 days a week, otherwise full remote'
+		'Sweden' => 'Hybrid if remote 3 to 4 days a week, otherwise full remote‘
 	  ]
     ];
   }
@@ -191,6 +190,8 @@ class Me implements Goals
       'What it means' => 'As mentioned in the desired locations for my future job, I\'ll consider a position only if we can work 
        remotely.',
        'What I'm doing at the moment' => 'Since October 2022, I take care of my new-born while studying in order to get my certifications.
+       I got officialy certified as a software/web developer and I am currently waiting to be officialy certified on PHP & Symfony.
+       I am also working on a project which will allow a website to exist in Vanilla, React.js, Vue.js and Symfony (PHP) at the same time with the ability for the user to switch from one framework to another at anytime. 
        I also keep an eye open on the job market and every new tech that could be a great add-on to my stack.'
     ];
   }
@@ -204,7 +205,7 @@ class Me implements Goals
        PC in 2021 and enjoy it a lot. I play all sort of games but at the moment, I play a lot of DayZ, The Last of Us and Hunt:Showdown.',
       	'Server Admin/ Mods' => 'I also give a hand to the staff of a French DayZ server ("Les Imparfaits"). It involves some 3D modeling, some C++ code session to install, modify, updates the mods and some 
        community management.',
-	'Travels' => 'I love to travel, meet new people, experience news life styles and I intend to share this love with my son.',
+	'Travels' => 'I love to travel, meet new people, experience news life styles and I intend to share this love with my son. Next big trip will be in Sweden (again) next december!!! we’re all very excited :)',
 	'Music' => 'I play guitar and accordeon, love country music and pop-roc music!!'
     ];
   }
