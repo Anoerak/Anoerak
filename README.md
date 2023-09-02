@@ -15,10 +15,10 @@
 
 <br>
 
-![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)
+<!--![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)
 ![forthebadge](https://forthebadge.com/images/badges/built-with-grammas-recipe.svg)
 ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
-![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
+![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)-->
 
 <img align='right' src="https://media.giphy.com/media/8m4gPv1UFz1jmiCtKd/giphy.gif" width="180">
 
