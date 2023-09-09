@@ -19,6 +19,10 @@
 ![forthebadge](https://forthebadge.com/images/badges/built-with-grammas-recipe.svg)
 ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
 ![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)-->
+![60% of the time, work every time](https://img.shields.io/badge/60%20percent%20of%20the%20time-Works%20every%20time-green?style=for-the-badge&logo=github)
+![Built with Grammas recipe](https://img.shields.io/badge/built%20with-grammas%20Recipe-red?style=for-the-badge&logo=iconjar)
+![Uses HTML5](https://img.shields.io/badge/uses-HTML5-E34F26?style=for-the-badge&logo=html5)
+![Uses CSS3](https://img.shields.io/badge/uses-CSS3-1572B6?style=for-the-badge&logo=css3)
 
 <img align='right' src="https://media.giphy.com/media/8m4gPv1UFz1jmiCtKd/giphy.gif" width="180">
 
