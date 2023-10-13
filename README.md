@@ -111,7 +111,7 @@ me.story = story;
 <br><br>
 
 
-### <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="50"> A little more about what I'm studying at the moment... <img src="https://media.giphy.com/media/9nOjSPYp2NjwrIfeNA/giphy.gif" width="90">     <img src="https://media.giphy.com/media/k9wc7ZzkSBojEnhUTr/giphy.gif" width="40"> <img src="https://media.giphy.com/media/Y1q8LF4Fc6DoQYC3fi/giphy.gif" width="40">
+### <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="50"/> A little more about what I'm studying at the moment... <img src="https://media.giphy.com/media/9nOjSPYp2NjwrIfeNA/giphy.gif" width="90">     <img src="https://media.giphy.com/media/k9wc7ZzkSBojEnhUTr/giphy.gif" width="40">    <img src="https://media.giphy.com/media/Y1q8LF4Fc6DoQYC3fi/giphy.gif" width="40" />
 
 ````json
 {
