@@ -60,9 +60,9 @@ class Anørak {
 	constructor() {
 		this._pronouns = 'he' | 'his';
 		this._languages = ['HTML5', 'Twig', 'CSS3', 'SCSS', 'JavaScript', 'PHP', 'MySQL'];
-		this._frameworks = ['React.JS', 'Vue.JS', 'Solid.JS', 'Symfony'];
-		this._librairies = ['Redux', 'Bootstrap', 'Bulma', 'Chart.JS', 'Rechart'];
-		this._workInProgress = 'Nailing the unit test with PHPUnit, exploring Docker containers, Kubernetes and Ansible!!';
+		this._frameworks = ['Vue.JS', 'Svelte', 'Solid.JS', 'Symfony'];
+		this._librairies = ['React.JS', 'Redux', 'Bootstrap', 'Bulma', 'Chart.JS', 'Rechart', 'Mapbox.gl'...];
+		this._workInProgress = 'Nailing the unit test with PHPUnit, digging a bit more with Docker containers and exploring Kubernetes and Ansible!!';
 		this._story = [];
 	}
 
@@ -96,9 +96,10 @@ const story = [
 			planned by OpenClassrooms.',
 			'2022-2023': 'I quit my job and start another training with OpenClassrooms in order to get a certification as an advanced JS & 
 			React web applications developer. I managed to validate all the projects in about 5 and 1/2 months instead of 12 and 
-			use the extra time to do all the projects of the PHP & Symfony Web Developer program (a total different 12 months program). 
-			Today, I\'m officially following the PHP & Symfony program and use the extra time to study others languages, frameworks, 
-			librairies and get a job!!!',
+			use the extra time to do all the projects of the PHP & Symfony Web Developer program (a total different 12 months program).',
+			'2023-    ': 'Today, I am officially following the PHP & Symfony (which I already done unofficialy) program and use the extra
+			time to study others languages, frameworks, librairies and get a job!!! I am also working on some Open Source project, especially
+			 one that I have created "DevMap" which is a web application to locate devs open to work (Svelte + Symfony).',
 		},
 	},
 ];
@@ -110,7 +111,42 @@ me.story = story;
 <br><br>
 
 
-### <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="50"> A little more about what I'm studying at the moment... <img src="https://media.giphy.com/media/9nOjSPYp2NjwrIfeNA/giphy.gif" width="90">     <img src="https://media.giphy.com/media/k9wc7ZzkSBojEnhUTr/giphy.gif" width="40">
+### <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="50"> A little more about what I'm studying at the moment... <img src="https://media.giphy.com/media/9nOjSPYp2NjwrIfeNA/giphy.gif" width="90">     <img src="https://media.giphy.com/media/k9wc7ZzkSBojEnhUTr/giphy.gif" width="40"> <img src="https://media.giphy.com/media/Y1q8LF4Fc6DoQYC3fi/giphy.gif" width="40">
+
+````json
+{
+  "listOfSubjects": [
+    {
+      {
+	"id": 1,
+	"title": "Svelte",
+	"emote": "svelte.jpeg"
+      },
+      {
+	"id": 2,
+	"title": "DevMap (Open Source Project)",
+	"emote": "DevMap.jpeg"
+      },
+      {
+	"id": 3,
+	"title": "Docker",
+	"emote": "docker.jpeg"
+      },
+      {
+	"id": 4,
+	"title": "Kubernetes",
+	"emote": "kubernetes.jpeg"
+      },
+      {
+	"id": 5,
+	"title": "Ansible",
+	"emote": "ansible.jpeg"
+      },
+    }
+  ]
+}
+
+````
 
 ````jsx
 const subjectsActuallyStudied = () => {
@@ -120,7 +156,7 @@ const subjectsActuallyStudied = () => {
   
   return (
     <div className="main">
-      <h1>Docker, OpenStack, Kubernetes and Ansible</h1>
+      <h1>Open Source Project, Docker, OpenStack, Kubernetes and Ansible</h1>
       <div className="home_content">
         {isError ? (
           <div className="error">
@@ -131,7 +167,7 @@ const subjectsActuallyStudied = () => {
         ) : (
           <div className="cards">
             {listOfSubjects.map((place) => (
-		// You got it, I try to get better with React, Next and Solid JS meamwhile working on OpenStack, Docker and Ansible. 
+		// You got it, I try to get better with React, Next and Solid JS meamwhile working on OpenStack, Docker and Ansible.
               <Link to={`/details/${subject.id}`} key={subject.id}>
                 <Card id={subject.id} name={subject.title} picture={subject.emote} />
               </Link>
