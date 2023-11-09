@@ -62,7 +62,8 @@ class Anørak {
 		this._languages = ['HTML5', 'Twig', 'CSS3', 'SCSS', 'JavaScript', 'PHP', 'MySQL'];
 		this._frameworks = ['Vue.JS', 'Svelte', 'Solid.JS', 'Symfony'];
 		this._librairies = ['React.JS', 'Redux', 'Bootstrap', 'Bulma', 'Chart.JS', 'Rechart', 'Mapbox.gl'...];
-		this._workInProgress = 'Nailing the unit test with PHPUnit, digging a bit more with Docker containers and exploring Kubernetes and Ansible!!';
+		this._workInProgress = 'Nailing the unit test with PHPUnit, digging a bit more with Docker 
+					containers and exploring Kubernetes and Ansible!!';
 		this._story = [];
 	}
 
@@ -88,18 +89,24 @@ const me = new Anørak();
 const story = [
 	{
 		previous_experiences: {
-			'2002-2016': 'A long carrier into logistics and sales for several french fret companies such as STG, STEF or MADRIAS.',
+			'2002-2016': 'A long carrier into logistics and sales for several french fret companies such
+				      as STG, STEF or MADRIAS.',
 			'2016 - 2018': '2 years as a yoga teacher based in St Louis, MO, USA',
 			'2018 - 2022': '4 years as France sales manager for a veterinarian laboratory',
-			'2021': 'In parallel with my job at the time as a national sales manager, I started a program with OpenClassrooms in order 
-			to get an official certifiation as a web developer (HTML, CSS, Node, MySQL, Vue). Done in 4 months instead of 6 as 
-			planned by OpenClassrooms.',
-			'2022-2023': 'I quit my job and start another training with OpenClassrooms in order to get a certification as an advanced JS & 
-			React web applications developer. I managed to validate all the projects in about 5 and 1/2 months instead of 12 and 
-			use the extra time to do all the projects of the PHP & Symfony Web Developer program (a total different 12 months program).',
-			'2023-    ': 'Today, I am officially following the PHP & Symfony (which I already done unofficialy) program and use the extra
-			time to study others languages, frameworks, librairies and get a job!!! I am also working on some Open Source project, especially
-			 one that I have created "DevMap" which is a web application to locate devs open to work (Svelte + Symfony).',
+			'2021': 'In parallel with my job at the time as a national sales manager, I started a program
+				 with OpenClassrooms in order to get an official certifiation as a web developer
+				 (HTML, CSS, Node, MySQL, Vue). Done in 4 months instead of 6 as planned by
+				  OpenClassrooms.',
+			'2022-2023': 'I quit my job and start another training with OpenClassrooms in order to get a
+				      certification as an advanced JS & React web applications developer. I managed to 
+				      validate all the projects in about 5 and 1/2 months instead of 12 and use the
+				      extra time to do all the projects of the PHP & Symfony Web Developer program
+				      (a total different 12 months program).',
+			'2023-    ': 'Today, I am officially following the PHP & Symfony (which I already done
+				      unofficialy) program and use the extra time to study others languages,
+				      frameworks, librairies and get a job!!! I am also working on some Open Source
+				      project, lat one being one that I have created and called "DevMap" which is a
+				      web application to locate devs open to work (Svelte + Symfony).',
 		},
 	},
 ];
@@ -167,7 +174,8 @@ const subjectsActuallyStudied = () => {
         ) : (
           <div className="cards">
             {listOfSubjects.map((place) => (
-		// You got it, I try to get better with React, Next and Solid JS meamwhile working on OpenStack, Docker and Ansible.
+		/* You got it, I try to get better with React, Next and Solid JS
+		meamwhile working on OpenStack, Docker and Ansible.*/
               <Link to={`/details/${subject.id}`} key={subject.id}>
                 <Card id={subject.id} name={subject.title} picture={subject.emote} />
               </Link>
@@ -225,15 +233,20 @@ class Me implements Goals
   public function enjoyMyfamily(): array
   {
     return [
-      'What I mean' => 'As a father since october 2022, I intend to see my son growing up and spend as much time as I can with 
-       him and his mother. COVID-19 taught us that we don‘t need to spend hours commuting, gathering in offices to do the exact 
-       same thing we can do from home.',
-      'What it means' => 'As mentioned in the desired locations for my future job, I\'ll consider a position only if we can work 
-       remotely.',
-       'What I'm doing at the moment' => 'Since October 2022, I take care of my new-born while studying in order to get my certifications.
-       I got officialy certified as a software/web developer and I am currently waiting to be officialy certified on PHP & Symfony.
-       I am also working on a project which will allow a website to exist in Vanilla, React.js, Vue.js and Symfony (PHP) at the same time with the ability for the user to switch from one framework to another at anytime. 
-       I also keep an eye open on the job market and every new tech that could be a great add-on to my stack.'
+      'What I mean' => 'As a father since october 2022, I intend to see my son growing up and spend as much time as
+			I can with him and his mother. COVID-19 taught us that we don‘t need to spend hours commuting,
+			gathering in offices to do the exact same thing we can do from home.',
+      'What it means' => 'As mentioned in the desired locations for my future job, I\'ll consider a position only if
+			  we can work remotely.',
+       'What I'm doing at the moment' => 'Since October 2022, I take care of my new-born while studying in order to
+					  get my certifications.
+       				  	  I got officialy certified as a software/web developer and I am currently
+					  waiting to be officialy certified on PHP & Symfony.
+       					  I am also working on a project which will allow a website to exist in Vanilla,
+					  React.js, Vue.js and Symfony (PHP) at the same time with the ability for the
+					  user to switch from one framework to another at anytime. 
+      					  I also keep an eye open on the job market and every new tech that could be a
+				 	  great add-on to my stack.'
     ];
   }
 
@@ -241,12 +254,17 @@ class Me implements Goals
   {
     return [
       	'Yoga' => 'Since 2012, I practice at least 3 times a week and teach AcroYoga every Tuesday evening.',
-      	'Hiking' => 'Once a week, we go for a hike. We long for something different every week if possible and really look forward for this family time.',
-      	'Video Games' => 'I\'ve been playing videos games since my parents brought back home our first Amstrad 6128+!! Yup, I\'m that old :). Since then, I\'ve been playing mostly on console but I\'ve switched to 
-       PC in 2021 and enjoy it a lot. I play all sort of games but at the moment, I play a lot of DayZ, The Last of Us and Hunt:Showdown.',
-      	'Server Admin/ Mods' => 'I also give a hand to the staff of a French DayZ server ("Les Imparfaits"). It involves some 3D modeling, some C++ code session to install, modify, updates the mods and some 
-       community management.',
-	'Travels' => 'I love to travel, meet new people, experience news life styles and I intend to share this love with my son. Next big trip will be in Sweden (again) next december!!! we’re all very excited :)',
+      	'Hiking' => 'Once a week, we go for a hike. We long for something different every week if possible and really
+		     look forward for this family time.',
+      	'Video Games' => 'I\'ve been playing videos games since my parents brought back home our first Amstrad 6128+!!
+			  Yup, I\'m that old :). Since then, I\'ve been playing mostly on console but I\'ve switched to 
+       			  PC in 2021 and enjoy it a lot. I play all sort of games but at the moment, I play a lot of DayZ,
+			  The Last of Us, Hunt:Showdown and recently the new Assassin\'s Creed.',
+      	'Server Admin/ Mods' => 'I also give a hand to the staff of a French DayZ server ("Les Imparfaits"). It involves
+			  some 3D modeling, some C++ code session to install, modify, updates the mods and some community
+			  management.',
+	'Travels' => 'I love to travel, meet new people, experience news life styles and I intend to share this love with
+		      my son. Next big trip will be in Sweden (again) next december!!! we’re all very excited :)',
 	'Music' => 'I play guitar and accordeon, love country music and pop-roc music!!'
     ];
   }
