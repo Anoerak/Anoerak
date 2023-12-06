@@ -105,7 +105,7 @@ const story = [
 			'2023-    ': 'Today, I am officially following the PHP & Symfony (which I already done
 				      unofficialy) program and use the extra time to study others languages,
 				      frameworks, librairies and get a job!!! I am also working on some Open Source
-				      project, lat one being one that I have created and called "DevMap" which is a
+				      project, latest one being one that I have created and called "DevMap" which is a
 				      web application to locate devs open to work (Svelte + Symfony).',
 		},
 	},
