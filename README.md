@@ -175,7 +175,8 @@ const subjectsActuallyStudied = () => {
           <div className="cards">
             {listOfSubjects.map((place) => (
 		/* You got it, I try to get better with React, Next and Solid JS
-		meamwhile working on OpenStack, Docker and Ansible.*/
+		meamwhile working on OpenStack, Docker and Ansible. Also started to
+		explore Svelte.js and pixiJs recently.*/
               <Link to={`/details/${subject.id}`} key={subject.id}>
                 <Card id={subject.id} name={subject.title} picture={subject.emote} />
               </Link>
