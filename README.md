@@ -101,12 +101,16 @@ const story = [
 				      certification as an advanced JS & React web applications developer. I managed to 
 				      validate all the projects in about 5 and 1/2 months instead of 12 and use the
 				      extra time to do all the projects of the PHP & Symfony Web Developer program
-				      (a total different 12 months program).',
-			'2023-    ': 'Today, I am officially following the PHP & Symfony (which I already done
-				      unofficialy) program and use the extra time to study others languages,
-				      frameworks, librairies and get a job!!! I am also working on some Open Source
-				      project, latest one being one that I have created and called "DevMap" which is a
-				      web application to locate devs open to work (Svelte + Symfony).',
+				      (a total different 12 months program). I am officially followed the PHP & Symfony
+				      course (which I already done unofficialy) and use the extra time to study others
+				      languages, frameworks, librairies and get a job!!! I am also working on some
+				      Open Source project, latest one being one that I have created and called "DevMap"
+				      which is a web application to locate devs open to work (Svelte + Symfony).',
+			'2024 - ' : 'I start my first job as a full-stack developer for a Swedish compnay, DynamicSource.
+				     I could not be more happy and excited. The company, the position, the team, everything
+				     is perfect to me and I have high hope for the future :) .'
+
+
 		},
 	},
 ];
@@ -126,18 +130,18 @@ me.story = story;
     {
       {
 	"id": 1,
-	"title": "Svelte",
-	"emote": "svelte.jpeg"
+	"title": "Laminas",
+	"emote": "laminas.jpeg"
       },
       {
 	"id": 2,
-	"title": "DevMap (Open Source Project)",
-	"emote": "DevMap.jpeg"
+	"title": "Foundation",
+	"emote": "foundation.jpeg"
       },
       {
 	"id": 3,
-	"title": "Docker",
-	"emote": "docker.jpeg"
+	"title": "Secret Personal Project",
+	"emote": "secretPersonalProject.jpeg"
       },
       {
 	"id": 4,
@@ -219,15 +223,24 @@ class Me implements Goals
   public function getAJob(): array
   {
     return [
-      'workplace' => [
-        'company' => 'Maybe yours!!!',
-        'position' => 'Let\'s talk about it',
-        'salary' => 'The right amount for the right position'
-      ],
-	  'location' => [
+        'workplace' => [
+            'company' => 'Learn, grow and evolve within DS',
+            'position' => 'I love what I do and intend getting better at it. So we will
+             see what the future is preparing for me :) ',
+            'salary' => 'As always, balance. So thhe right amount for the right position'
+        ],
+	'location' => [
+	  	'Sweden' => 'I work from home but will move to Sweden this year.',
+	  ]
+        /*'workplace' => [
+            'company' => 'Maybe yours!!!',
+            'position' => 'Let\'s talk about it',
+            'salary' => 'The right amount for the right position'
+        ],
+	'location' => [
 	  	'Worldwide' => 'Anywhere as long as we can work fully remotely',
 		'Sweden' => 'Hybrid if remote 3 to 4 days a week, otherwise full remote'
-	  ]
+	  ]*/
     ];
   }
   
