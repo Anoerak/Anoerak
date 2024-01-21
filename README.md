@@ -35,7 +35,7 @@
   <em>
     Studied at <a href="https://openclassrooms.com/">OpenClassrooms</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://media.giphy.com/media/XuBtcsV266vepmoEYG/giphy.gif" width="50">
     <br>
-    Full-Stack Developer at <a href="www.dynamicsource.se">DynamicSource</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://media.giphy.com/media/BTgzAyALCVfgklatJf/giphy.gif" width="75">
+    Full-Stack Developer at <a href="www.dynamicsource.se">DynamicSource AB</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://media.giphy.com/media/BTgzAyALCVfgklatJf/giphy.gif" width="75">
   </em>
 </p>
 
