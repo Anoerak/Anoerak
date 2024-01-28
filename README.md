@@ -10,7 +10,7 @@
 
 <h2 align='left'>
   Hi,
-  I'm Sebastien! 
+  my name is Sebastien! 
 </h2>
 
 <br>
