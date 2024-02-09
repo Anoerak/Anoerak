@@ -227,7 +227,7 @@ class Me implements Goals
             'company' => 'Learn, grow and evolve within DS',
             'position' => 'I love what I do and intend getting better at it. So we will
              see what the future is preparing for me :) ',
-            'salary' => 'As always, balance. So thhe right amount for the right position'
+            'salary' => 'As always, balance. So the right amount for the right position'
         ],
 	'location' => [
 	  	'Sweden' => 'I work from home but will move to Sweden this year.',
