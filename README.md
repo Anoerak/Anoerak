@@ -108,7 +108,7 @@ const story = [
 				      which is a web application to locate devs open to work (Svelte + Symfony).',
 			'2024 - ' : 'I start my first job as a full-stack developer for a Swedish compnay, DynamicSource.
 				     I could not be more happy and excited. The company, the position, the team, everything
-				     is perfect to me and I have high hope for the future :) .'
+				     is perfect to me and I have high hopes for the future :) .'
 
 
 		},
