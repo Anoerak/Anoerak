@@ -220,11 +220,11 @@ class Me implements Goals
     return $this->story;
   }
   
-  public function getAJob(): array
+  public function gotAJob(): array
   {
     return [
         'workplace' => [
-            'company' => 'Learn, grow and evolve within DS',
+            'company' => 'Learn, grow and evolve within DynamicSource AB',
             'position' => 'I love what I do and intend getting better at it. So we will
              see what the future is preparing for me :) ',
             'salary' => 'As always, balance. So the right amount for the right position'
@@ -233,13 +233,12 @@ class Me implements Goals
 	  	'Sweden' => 'I work from home but will move to Sweden this year.',
 	  ]
         /*'workplace' => [
-            'company' => 'Maybe yours!!!',
-            'position' => 'Let\'s talk about it',
+            'company' => 'DynamicSource AB',
+            'position' => 'Full-stack developer',
             'salary' => 'The right amount for the right position'
         ],
 	'location' => [
-	  	'Worldwide' => 'Anywhere as long as we can work fully remotely',
-		'Sweden' => 'Hybrid if remote 3 to 4 days a week, otherwise full remote'
+	  	'Worldwide' => 'Full remote'
 	  ]*/
     ];
   }
