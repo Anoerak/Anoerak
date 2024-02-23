@@ -60,7 +60,7 @@ class Anørak {
 	constructor() {
 		this._pronouns = 'he' | 'his';
 		this._languages = ['HTML5', 'Twig', 'CSS3', 'SCSS', 'JavaScript', 'PHP', 'MySQL'];
-		this._frameworks = ['Vue.JS', 'Svelte', 'Solid.JS', 'Symfony'];
+		this._frameworks = ['Vue.JS', 'Svelte', 'Solid.JS', 'Symfony', 'Foundation'];
 		this._librairies = ['React.JS', 'Redux', 'Bootstrap', 'Bulma', 'Chart.JS', 'Rechart', 'Mapbox.gl', 'PixiJs'...];
 		this._workInProgress = 'Nailing the unit test with PHPUnit, digging a bit more with Docker 
 					containers and exploring Kubernetes and Ansible!!';
