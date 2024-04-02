@@ -106,7 +106,7 @@ const story = [
 				      languages, frameworks, librairies and get a job!!! I am also working on some
 				      Open Source project, latest one being one that I have created and called "DevMap"
 				      which is a web application to locate devs open to work (Svelte + Symfony).',
-			'2024 - ' : 'I start my first job as a full-stack developer for a Swedish compnay, DynamicSource.
+			'2024 - ' : 'I start my first job as a full-stack developer for a company based in Stockholm Sweden.
 				     I could not be more happy and excited. The company, the position, the team, everything
 				     is perfect to me and I have high hopes for the future :) .'
 
