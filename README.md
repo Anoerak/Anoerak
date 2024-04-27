@@ -224,7 +224,7 @@ class Me implements Goals
   {
     return [
         'workplace' => [
-            'company' => 'Learn, grow and evolve within DynamicSource AB',
+            'company' => 'DynamicSource AB',
             'position' => 'I love what I do and intend getting better at it. So we will
              see what the future is preparing for me :) ',
             'salary' => 'As always, balance. So the right amount for the right position'
