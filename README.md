@@ -10,7 +10,7 @@
 
 <h2 align='left'>
   Hi,
-  my name is Sebastien (aka Anørak)! 
+  Sébastien here! 
 </h2>
 
 <br>
