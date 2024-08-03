@@ -259,7 +259,9 @@ class Me implements Goals
 					  React.js, Vue.js and Symfony (PHP) at the same time with the ability for the
 					  user to switch from one framework to another at anytime. 
       					  I also keep an eye open on the job market and every new tech that could be a
-				 	  great add-on to my stack.'
+				 	  great add-on to my stack. 
+      					  My last project is a tool to help user with GIT. It doesn't matter if you are a beginner or an advanced user,
+					  this tool can help you with the commands but also follow conventions when it comes to branch or commit naming.'
     ];
   }
 
