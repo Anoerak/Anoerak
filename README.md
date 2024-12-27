@@ -43,10 +43,10 @@
 <br><br><br><br>
 
 <picture>
-  <img align='left' src="https://github-readme-stats-git-main-anoerak.vercel.app/api?username=Anoerak&count_private=true&show_icons=true&theme=radical" />
+  <img align='left' src="https://github-readme-stats-git-main-anoerak.vercel.app/api?username=Anoerak&count_private=true&show_icons=true&theme=vision-friendly-dark" />
 </picture>
 <picture>
-  <img align='right' src="https://github-readme-stats-git-main-anoerak.vercel.app/api/top-langs/?username=Anoerak&layout=compact&langs_count=8&hide=html"/>
+  <img align='right' src="https://github-readme-stats-git-main-anoerak.vercel.app/api/top-langs/?username=Anoerak&layout=compact&langs_count=8&hide=html&theme=vision-friendly-dark"/>
 </picture>
 
 
